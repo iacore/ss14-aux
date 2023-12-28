@@ -16,3 +16,4 @@ echo "digraph {" > out.dot
 cat staging >> out.dot
 echo "}" >> out.dot
 
+dot -Tpng out.dot  > out.png
